@@ -1,0 +1,14 @@
+.books {
+  width: 980px;
+  margin: 0 auto;
+  color: #1D7874;
+  @media only screen and  (max-width: 760px) {
+    margin: 0;
+    width: 100%
+  }
+  li {
+    svg, button {
+      color: #1D7874;
+    }
+  }
+}
